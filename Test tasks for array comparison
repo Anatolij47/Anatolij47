@@ -1,0 +1,11 @@
+function findArray(arr1, arr2){
+  let result = [];
+  for(let i = 0; i < arr2.length; i++){
+    if(arr2[i] < arr1.length &&
+      arr2[i] >= 0){
+      result.push(arr1[arr2[i]]);
+    }
+  }
+  return result;
+}
+
