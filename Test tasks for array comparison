@@ -8,6 +8,7 @@ function findArray(arr1, arr2){
   }
   return result;
 }
+alert("this is JavaScript");
 
 
 
